@@ -1,0 +1,345 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content-detail .detail._1 .choice, .content-detail .detail._2 .input-job, .content-detail .detail._3 .list-jobs, .content-detail .detail._4 .content-detail4 {
+  padding: 40px;
+  border: 1px solid #b6a7a7;
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.banner {
+  height: 300px;
+  background: #E0001B;
+  text-align: center;
+}
+.banner p {
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 200px;
+}
+
+.col-lg-2dot4 {
+  width: 20%;
+  float: left;
+}
+.col-lg-2dot4 img {
+  width: 100%;
+}
+
+.col-lg-7dot2 {
+  width: 60%;
+  float: left;
+  position: relative;
+  background: white;
+  margin-top: -100px;
+}
+
+.title-form {
+  height: 80px;
+  background: #454545;
+  text-align: center;
+}
+.title-form p {
+  color: white;
+  font-size: 20px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.content-detail {
+  padding: 50px;
+}
+.content-detail .detail {
+  margin-bottom: 50px;
+}
+.content-detail .detail._3 .list-jobs {
+  padding: 20px !important;
+}
+.content-detail .detail._3 .list-jobs .col-lg-6 {
+  padding: 0px !important;
+}
+
+.text-detail {
+  font-size: 18px;
+}
+.text-detail a {
+  color: #E0001B;
+}
+
+label {
+  font-size: 11px;
+}
+
+.btn-primary {
+  background-color: #E0001B !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+.btn-secondary {
+  background-image: none !important;
+  border: none !important;
+}
+
+.logo-footer img {
+  width: 100px;
+}
+
+.btn-lg {
+  width: 100%;
+}
+
+.logo-footer img {
+  width: 100px;
+}
+
+.content-footer {
+  background: #EFEFEF;
+  margin-top: 20px;
+}
+.content-footer p {
+  font-size: 9.5px;
+  margin: 0px;
+}
+.content-footer p.title-footer {
+  font-size: 17px;
+  color: #E0001B;
+  font-weight: bold;
+}
+.content-footer i {
+  font-size: 11px;
+  color: #E0001B;
+  padding: 5px 5px 0px 0px;
+}
+
+.map .btn {
+  padding: 5px !important;
+  font-size: 9px !important;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+ul.list-social-network {
+  list-style: none;
+}
+ul.list-social-network li {
+  float: left;
+  padding: 10px;
+}
+ul.list-social-network li i {
+  font-size: 20px;
+  color: #E0001B;
+}
+
+.footer_.f1 p {
+  margin: 15px 0px;
+}
+.footer_.f1 i {
+  font-size: 20px;
+}
+.footer_.f4 .input-group {
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  float: left;
+}
+.footer_.f4 span {
+  padding: 0px !important;
+}
+.footer_.f4 span i {
+  font-size: 25px;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.last-footer {
+  width: 100%;
+  height: 50px;
+  background: #262626;
+}
+.last-footer p {
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 50px;
+  margin-left: 30px;
+}
+
+@media all and (max-width: 1200px) {
+  .content-footer {
+    display: none;
+  }
+
+  label {
+    font-size: 9px;
+  }
+
+  .list-jobs .form-check {
+    padding: 0px !important;
+    margin-right: -1px;
+  }
+}
+.form-check.radio input[type=radio], .form-check.radio input[type=checkbox], .form-check.check input[type=radio], .form-check.check input[type=checkbox] {
+  opacity: 0;
+}
+.form-check.radio input[type=radio]:checked + label:before, .form-check.radio input[type=checkbox]:checked + label:before, .form-check.check input[type=radio]:checked + label:before, .form-check.check input[type=checkbox]:checked + label:before {
+  content: "\2022";
+  color: #E0001B;
+  font-size: 30px;
+  text-align: center;
+  line-height: 16px;
+}
+.form-check.radio label, .form-check.check label {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+.form-check.radio label:before, .form-check.check label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #E0001B;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: -17px;
+  margin-top: 8px;
+}
+
+.form-check.check input[type=radio]:checked + label:before, .form-check.check input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  color: #E0001B;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+}
+.form-check.check label {
+  font-size: 11px !important;
+}
+.form-check.check label:before {
+  margin-left: -53px;
+  border-radius: 4px;
+}
+
+.list-selections label {
+  width: 32%;
+  margin-bottom: 0 !important;
+}
+.list-selections label input {
+  display: none;
+}
+.list-selections label input:checked ~ span {
+  color: white;
+  background: #E0001B;
+}
+.list-selections label span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #E0001B;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.ck-button {
+  width: 50%;
+  background-color: #EFEFEF;
+  border: 1px solid #E0001B;
+  overflow: auto;
+  float: left;
+  height: 60px;
+}
+.ck-button label {
+  float: left;
+  width: 100%;
+}
+.ck-button label span {
+  text-align: center;
+  display: block;
+  padding: 20px 0px;
+  height: 60px;
+}
+.ck-button label input {
+  display: none;
+}
+.ck-button label input:checked + span {
+  background: #E0001B;
+  color: white;
+}
+
+.mobile, .job-in-mobile {
+  display: none;
+}
+
+@media all and (max-width: 992px) {
+  .banner p {
+    font-size: 40px;
+  }
+
+  .content-detail4 label {
+    padding: 0px !important;
+  }
+  .content-detail4 input {
+    padding: 0px !important;
+  }
+}
+@media all and (max-width: 768px) {
+  .banner {
+    height: 100px;
+  }
+  .banner p {
+    font-size: 20px;
+    line-height: 100px;
+  }
+
+  .middle-content {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .left-content, .right-content {
+    display: none;
+  }
+}
+@media all and (max-width: 576px) {
+  .banner {
+    height: 50px;
+  }
+  .banner p {
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0px !important;
+  }
+
+  .title-form {
+    height: 50px;
+  }
+  .title-form p {
+    line-height: 5px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .content-detail {
+    padding: 0px;
+  }
+
+  .job-in-mobile, .mobile {
+    display: block;
+  }
+
+  .choice, .list-jobs {
+    display: none;
+  }
+}
